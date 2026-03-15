@@ -1,0 +1,62 @@
+[
+  {
+    "id": "resp-001",
+    "summary": "Adult with fever, cough, mild shortness of breath, and low oxygen saturation.",
+    "keywords": ["fever", "cough", "shortness of breath", "oxygen", "respiratory"],
+    "temperatureC": 38.7,
+    "systolicBp": 110,
+    "heartRate": 102,
+    "oxygenSat": 92,
+    "redFlags": ["low_oxygen"],
+    "urgency": "urgent",
+    "suggestedActions": ["Escalate for same-day clinician review", "Repeat pulse oximetry", "Consider respiratory infection workup"]
+  },
+  {
+    "id": "card-002",
+    "summary": "Adult with chest pain on exertion and dizziness without fever.",
+    "keywords": ["chest pain", "dizziness", "exertion", "cardiac"],
+    "temperatureC": 36.9,
+    "systolicBp": 138,
+    "heartRate": 96,
+    "oxygenSat": 97,
+    "redFlags": ["chest_pain"],
+    "urgency": "urgent",
+    "suggestedActions": ["Escalate immediately for cardiovascular review", "Obtain ECG and vitals trend"]
+  },
+  {
+    "id": "mild-003",
+    "summary": "Young adult with sore throat, congestion, and stable vitals.",
+    "keywords": ["sore throat", "congestion", "upper respiratory", "stable"],
+    "temperatureC": 37.8,
+    "systolicBp": 118,
+    "heartRate": 82,
+    "oxygenSat": 99,
+    "redFlags": [],
+    "urgency": "routine",
+    "suggestedActions": ["Supportive care advice", "Monitor symptoms", "Escalate if breathing worsens or fever persists"]
+  },
+  {
+    "id": "neuro-004",
+    "summary": "Adult with severe headache, confusion, and vomiting.",
+    "keywords": ["headache", "confusion", "vomiting", "neurological"],
+    "temperatureC": 38.1,
+    "systolicBp": 144,
+    "heartRate": 104,
+    "oxygenSat": 96,
+    "redFlags": ["confusion"],
+    "urgency": "urgent",
+    "suggestedActions": ["Escalate urgently", "Initiate neurological assessment", "Do not defer senior review"]
+  },
+  {
+    "id": "gi-005",
+    "summary": "Adult with diarrhea, vomiting, and mild dehydration.",
+    "keywords": ["diarrhea", "vomiting", "dehydration", "gastrointestinal"],
+    "temperatureC": 37.5,
+    "systolicBp": 102,
+    "heartRate": 95,
+    "oxygenSat": 98,
+    "redFlags": [],
+    "urgency": "same_day",
+    "suggestedActions": ["Oral rehydration plan", "Review if unable to maintain fluids", "Check dehydration markers"]
+  }
+]

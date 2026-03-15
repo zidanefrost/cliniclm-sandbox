@@ -1,0 +1,38 @@
+[
+  {
+    "summary": "Patient has cough, fever, and oxygen saturation of 91.",
+    "temperatureC": 38.4,
+    "systolicBp": 112,
+    "heartRate": 104,
+    "oxygenSat": 91,
+    "redFlags": ["low_oxygen"],
+    "expectedUrgency": "urgent"
+  },
+  {
+    "summary": "Patient reports sore throat and congestion with normal vitals.",
+    "temperatureC": 37.6,
+    "systolicBp": 119,
+    "heartRate": 80,
+    "oxygenSat": 99,
+    "redFlags": [],
+    "expectedUrgency": "routine"
+  },
+  {
+    "summary": "Patient has vomiting and appears dehydrated but oxygen saturation is normal.",
+    "temperatureC": 37.4,
+    "systolicBp": 103,
+    "heartRate": 97,
+    "oxygenSat": 98,
+    "redFlags": [],
+    "expectedUrgency": "same_day"
+  },
+  {
+    "summary": "Patient has exertional chest pain and dizziness.",
+    "temperatureC": 36.8,
+    "systolicBp": 136,
+    "heartRate": 98,
+    "oxygenSat": 97,
+    "redFlags": ["chest_pain"],
+    "expectedUrgency": "urgent"
+  }
+]
