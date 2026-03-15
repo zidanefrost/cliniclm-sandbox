@@ -14,7 +14,7 @@ Everything in the repo is synthetic. The app runs entirely in the browser, the c
 
 ## Why I Built It
 
-I wanted a project that captured the product and evaluation side of decision-support work without depending on private data, private infrastructure, or a backend that would make the repo harder to publish cleanly.
+I wanted a project that captured the product and evaluation side of decision-support work without depending on private data, private infrastructure, or a backend that would make the repo harder to present cleanly.
 
 ## Project Structure
 
